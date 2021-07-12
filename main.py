@@ -1,8 +1,8 @@
 
 import david_test as dt
 
-my_name = dt.name_class()
-my_date = dt.date_class()
+my_name = dt.NameClass()
+my_date = dt.DateClass()
 print(f"Name: {my_name.name}")
 print(f"Date: {my_date.date}")
 print(f"That is all.")
