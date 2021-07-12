@@ -1,0 +1,68 @@
+compound_components:
+  mzi:
+  - bottom_port: 1010
+    left_bs: 100
+    left_port: 2
+    left_ps_numb: 100
+    lower_ps_numb: null
+    mzi_type: LP
+    object_id: 10
+    right_bs: 101
+    right_port: 1008
+    suppressed:
+      bs: [100, 101]
+      ps: [100, 101]
+    top_port: 1
+    top_ps_numb: null
+    upper_ps_numb: 101
+  - bottom_port: 1110
+    left_bs: 110
+    left_port: 4
+    left_ps_numb: 110
+    lower_ps_numb: null
+    mzi_type: LP
+    object_id: 11
+    right_bs: 111
+    right_port: 1108
+    suppressed:
+      bs: [110, 111]
+      ps: [110, 111]
+    top_port: 3
+    top_ps_numb: null
+    upper_ps_numb: 111
+  - bottom_port: 2010
+    left_bs: 200
+    left_port: 1108
+    left_ps_numb: 200
+    lower_ps_numb: null
+    mzi_type: LP
+    object_id: 20
+    right_bs: 201
+    right_port: 2008
+    suppressed:
+      bs: [200, 201]
+      ps: [200, 201]
+    top_port: 1010
+    top_ps_numb: null
+    upper_ps_numb: 201
+primitive_components:
+  bs:
+  - {bottom_port: 1006, left_port: 1003, object_id: 100, right_port: 1004, top_port: 1}
+  - {bottom_port: 1010, left_port: 1006, object_id: 101, right_port: 1008, top_port: 1005}
+  - {bottom_port: 1106, left_port: 1103, object_id: 110, right_port: 1104, top_port: 3}
+  - {bottom_port: 1110, left_port: 1106, object_id: 111, right_port: 1108, top_port: 1105}
+  - {bottom_port: 2006, left_port: 2003, object_id: 200, right_port: 2004, top_port: 1010}
+  - {bottom_port: 2010, left_port: 2006, object_id: 201, right_port: 2008, top_port: 2005}
+  ps:
+  - {high_electrical_port: 1000, left_port: 2, low_electrical_port: 1001, object_id: 100,
+    right_port: 1003}
+  - {high_electrical_port: 1002, left_port: 1004, low_electrical_port: 1003, object_id: 101,
+    right_port: 1005}
+  - {high_electrical_port: 1100, left_port: 4, low_electrical_port: 1101, object_id: 110,
+    right_port: 1103}
+  - {high_electrical_port: 1102, left_port: 1104, low_electrical_port: 1103, object_id: 111,
+    right_port: 1105}
+  - {high_electrical_port: 2000, left_port: 1108, low_electrical_port: 2001, object_id: 200,
+    right_port: 2003}
+  - {high_electrical_port: 2002, left_port: 2004, low_electrical_port: 2003, object_id: 201,
+    right_port: 2005}
